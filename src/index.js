@@ -72,7 +72,7 @@ FuzzySelect.propTypes = {
 
 FuzzySelect.defaultProps = {
   prompt: 'Search>',
-  limit: SelectInput.defaultProps.limit,
+  limit: 10,
 };
 
 export default FuzzySelect;
